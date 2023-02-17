@@ -968,7 +968,7 @@ main {
 }
 
 /** PRELOADER */
-/* .hidden-content,
+.hidden-content,
 #hidden-display {
   display: none;
 }
@@ -1021,7 +1021,7 @@ main {
   width: 100%;
   background: #fff;
 }
- */
+
 
 
 
