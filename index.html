@@ -1,0 +1,661 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+      <!-- favicon -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+  <!--  google font link  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&family=Roboto:wght@400;700&family=Saira+Stencil+One&display=swap"
+    rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/pace-js@latest/pace.min.js"></script>
+    <title>Document</title>
+</head>
+<body id="top" class="dark_theme">
+  <!-- #PRELOADER -->
+  <!-- <div id="preloader">
+    <div class="loading__text">
+        LOADING
+    </div>
+  </div> -->
+  
+  <!-- #HEADER -->
+  <header class="header hidden-content" data-header>
+    <div class="container">
+      <h1 class="h1 logo">
+        <a href="#">AP<span>.</span></a>
+      </h1>
+
+      <div class="navbar-actions">
+
+        <button class="theme-btn" aria-label="Change Theme" title="Change Theme" data-theme-btn>
+          <span class="icon"></span>
+        </button>
+
+      </div>
+
+      <button class="nav-toggle-btn" aria-label="Toggle Menu" title="Toggle Menu" data-nav-toggle-btn>
+        <span class="one"></span>
+        <span class="two"></span>
+        <span class="three"></span>
+      </button>
+
+      <nav class="navbar" data-navbar>
+        <ul class="navbar-list">
+
+          <li>
+            <a href="#home" class="navbar-link">Inicio.</a>
+          </li>
+
+          <li>
+            <a href="#about" class="navbar-link">Sobre Mi.</a>
+          </li>
+          <li>
+            <a href="#experiencia" class="navbar-link">Formación.</a>
+          </li>
+          <li>
+            <a href="#skills" class="navbar-link">Skills.</a>
+          </li>
+          <li>
+            <a href="#portfolio" class="navbar-link">Portfolio.</a>
+          </li>
+          
+        </ul>
+      </nav>
+
+    </div>
+  </header>
+
+  <main  id="hidden-display">
+
+    <article class="container ">
+      <!--       inicio del header -->
+      <section class="hero" id="home">
+
+       <div class="hero-main" >
+        
+        <figure class="hero-banner">
+
+          <picture>
+            <img src="assets/images/hero-banner.png" alt="A man in a happy expression"
+class="w-100 " id="img-hero">
+          </picture>
+
+        </figure>
+
+        <div class="hero-content">
+          
+          <h2 class="h2 hero-title" id="hero-txt">Milton Manuel Avalos Pucyura</h2>
+
+          <a href="#contact" class="btn btn-primary">visualizar CV</a>
+
+        </div>
+       </div> 
+        
+
+        <ul class="hero-social-list">
+
+          <li>
+            <a href="https://github.com/Mildark10" target="_blank"  class="hero-social-link">
+              <ion-icon name="logo-octocat"></ion-icon>
+
+              <div class="tooltip">GitHub</div>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" target="_blank" class="hero-social-link">
+              <ion-icon name="logo-wechat"></ion-icon>
+              <div class="tooltip">Gmail</div>
+            </a>
+          </li>
+
+          <li>
+            <a href="https://www.linkedin.com/in/milton-manuel-avalos-pucyura-9672261b2/" target="_blank" class="hero-social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+
+              <div class="tooltip">Linkedin</div>
+            </a>
+          </li>
+
+        </ul>
+
+        <a href="#stats" class="scroll-down">Scroll</a>
+      </section>
+      <!-- fin del header -->
+
+      <!--       inicio sobre Mi   -->
+      <section class="about" id="about">
+
+        <figure class="about-banner">
+          <img src="./assets/images/about-banner2.png" alt="sobre mi"
+          class="w-100" id="img-about">
+        </figure>
+        
+        <div class="about-content section-content section-about">
+          <p class="section-subtitle">Sobre Mi</p>    
+          <h2 class="h3 section-title">Apasionado por la tecnología!</h2>
+          <p class="section-text section-info">
+            Mi nombre es Milton Manuel Avalos Pucyura y soy graduado en Ingeniería de Sistemas de la Universidad UNTELS.
+            Con experiencia en el desarrollo de software y enfocado en el mundo de la tecnología.
+            Valoro mucho el trabajo en equipo, tengo una actitud proactiva y una capacidad de aprendizaje y resolución de problemas.
+          </p>
+
+          <div class="btn-group">
+            <button class="btn btn-secondary" id="showExperience">Ver mi experiencia</button>
+            <button class="btn btn-primary">ver cv</button>
+          </div>
+          
+        </div>
+        <div class="section-exp">
+          <div class="exp__box">
+            <img src="assets/images/logo-untels.png" style="width: 50px;" alt="">
+            <p class="h4"> Universidad Nacional Tecnologíca de Lima Sur</p>
+            <p class="section-text">04/2017 - 01/2022</p>          
+          </div>
+          <div class="exp__text">
+            <ul>
+              <li class="h3" style="font-size: 0.8em; font-weight: 300;" >📌Conocimientos en modelado y diseño de bases de datos relacionales y NoSQL.</li>
+              <li class="h3" style="font-size: 0.8em; font-weight: 300;" >📌Experiencia en el desarrollo de aplicaciones utilizando una o más tecnologías de programación</li>
+              <li class="h3" style="font-size: 0.8em; font-weight: 300;" >📌Habilidades en la planificación, seguimiento y control de proyectos, incluyendo la asignación de tareas y el uso de herramientas de gestión.</li>
+              <li class="h3" style="font-size: 0.8em; font-weight: 300;" >📌Conocimiento de las metodologías de desarrollo ágiles y capacidad para trabajar en equipo en un entorno de desarrollo colaborativo.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="section-exp">
+          <div class="exp__box">
+            <img src="assets/images/latamready.PNG" style="width: 100px;"  alt="">
+            <p class="h4"> LatamReady</p>
+            <p class="section-text">09/2021 - 12/2022</p>       
+          </div>
+          <div class="exp__text">
+            <ul>
+              <li class="h3" style="font-size: 0.8em; font-weight: 300;" >📌Uso de JavaScript y TypeScript para mejorar la calidad de mis proyectos de desarrollo. Aprovecho la versatilidad de JavaScript y las características avanzadas de TypeScript para producir código eficiente y robusto</li>
+              <li class="h3" style="font-size: 0.8em; font-weight: 300;" >📌Realizaba desarrollos y mejoras en LatamReady usando el ERP de Oracle NetSuite.</li>
+              <li class="h3" style="font-size: 0.8em; font-weight: 300;" >📌Trabajaba con el área de QA para solucionar imprevistos en sandbox y producción.</li>
+              <li class="h3" style="font-size: 0.8em; font-weight: 300;" >📌Realizaba pruebas manuales y funcionales para garantizar la calidad del software.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+      <!-- final de sobre mi  -->
+
+      <!--       inicio de experiencia -->
+      <section class="experiencia" id="experiencia">
+        
+        <div class="skills-content section-content">
+
+          <p class="section-subtitle">Mi Formación</p>
+
+          <h2 class="h3 section-title">Formación y Certificaciones</h2>
+          
+          <div class="exp__text" style="padding: 1em 0 2em 0  ;">
+            <ul>
+              <li class="h3" style="font-size: 0.8em; padding-top: 10px ;font-weight: 300;" >📌Desarrollo web: Experiencia en el desarrollo de aplicaciones web usando HTML, CSS, JavaScript y otros frameworks y bibliotecas.</li>
+              <li class="h3" style="font-size: 0.8em; padding-top: 10px ;font-weight: 300;" >📌Bases de datos: Conocimientos en diseño, implementación y administración de bases de datos relacionales y NoSQL.</li>
+              <li class="h3" style="font-size: 0.8em; padding-top: 10px ;font-weight: 300;" >📌Gestión de proyectos: Conocimiento en metodologías PMBOK y Scrum para la planificación, ejecución y control de proyectos de software.</li>
+              <li class="h3" style="font-size: 0.8em; padding-top: 10px ;font-weight: 300;" >📌GitHub: Experiencia en el uso de GitHub para el control de versiones y la colaboración en proyectos de software.</li>
+            </ul>
+          </div>
+
+          <div class="skills-toggle experiencia-toggle" data-toggle-exp>
+            <button class="toggle-btn active" data-toggle-btn-exp>Proyectos</button>
+            <button class="toggle-btn" data-toggle-btn-exp>Certificaciones</button>
+          </div>
+        </div>
+
+        <div class="skills-box" data-skills-box-exp>
+          <ul class="skills-list">
+            <div class="container-exp">
+              <input type="radio" name="dot" id="one">
+              <input type="radio" name="dot" id="two">
+              <div class="main-card">
+                <div class="cards">
+                  <div class="card">
+                   <div class="content">
+                     <div class="img">
+                       <img src="assets/images/database.jpg" alt="">
+                     </div>
+                     <div class="details">
+                       <div class="job">Gestión en Base de datos</div>
+                     </div>
+                     <div class="media-icons">
+                        <p></p>                      
+                     </div>
+                   </div>
+                  </div>
+                  <div class="card">
+                   <div class="content">
+                     <div class="img">
+                       <img src="assets/images/uml.jpg" alt="">
+                     </div>
+                     <div class="details">
+                       <div class="job">Analisis y Diseño de Sistemas</div>
+                     </div>
+                     <div class="media-icons">
+                        <p></p>                      
+                     </div>
+                   </div>
+                  </div>
+                  <div class="card">
+                   <div class="content">
+                     <div class="img">
+                      <img src="assets/images/gestion_inventarios.jpg" alt="">
+                     </div>
+                     <div class="details">
+                       <div class="job">Gestión de Inventarios</div>
+                     </div>
+                     <div class="media-icons">
+                        <p></p>                      
+                     </div>
+                   </div>
+                  </div>
+                </div>
+                <div class="cards">
+                  <div class="card">
+                   <div class="content">
+                     <div class="img">
+                       <img src="assets/images/gestion_mantenimiento.jpg" alt="">
+                     </div>
+                     <div class="details">
+                       <div class="job">Gestión de Control de mantenimiento</div>
+                     </div>
+                     <div class="media-icons">
+                        <p></p>                      
+                     </div>
+                   </div>
+                  </div>
+
+                 
+                </div>
+              </div>
+              <div class="button">
+                <label for="one" class=" active one"></label>
+                <label for="two" class="two"></label>
+              </div>
+            </div>
+
+          </ul>
+
+          <ul class="tools-list">
+            <div class="certificaciones">
+              <div class="certificaciones__card">
+                <img src="assets/images/css_certifiacion.jpg" alt="" class="certificacion__img">
+              </div>
+              <div class="certificaciones__card">
+                <img src="assets/images/git_certificaciones.jpg" alt="" class="certificacion__img">
+              </div>
+              <div class="certificaciones__card">
+                <img src="assets/images/diseño_certifacion.jpg" alt="" class="certificacion__img">
+              </div>
+              <div class="certificaciones__card">
+                <img src="assets/images/gestion_certifacion.jpg" alt="" class="certificacion__img">
+              </div>
+              <div class="certificaciones__card">
+                <img src="assets/images/certiprof.jpg" alt="" class="certificacion__img">
+              </div>
+              <div class="certificaciones__card">
+                <img src="assets/images/office.jpg" alt="" class="certificacion__img">
+              </div>
+            </div>
+          
+            <div class="modal">
+              <div class="modal__content">
+                <img src="" alt="" class="modal__img">
+              </div>
+            </div>
+          
+              
+          </ul>
+
+        </div>
+      </section>
+      <!--       fin de experiencia -->
+
+      <!--       inicio skills -->
+      <section class="skills" id="skills">
+
+        <div class="skills-content section-content">
+
+          <p class="section-subtitle">Mis skills</p>
+
+          <h2 class="h3 section-title">Tecnologías</h2>
+
+          <p class="section-text">
+            Experiencia en el desarrollo de aplicaciones utilizando una o más tecnologías de programación y más.
+          </p>
+
+          <div class="skills-toggle" data-toggle-box>
+            <button class="toggle-btn active" data-toggle-btn>Skills</button>
+
+            <button class="toggle-btn" data-toggle-btn>Otros</button>
+          </div>
+
+        </div>
+
+        <div class="skills-box" data-skills-box>
+
+          <ul class="skills-list">
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">HTML5</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/html5.png" alt="HTML5 logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">CSS3</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/css3.png" alt="CSS3 logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">JavaScript</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/javascript.png" alt="JavaScript logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">TypeScript</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/typescript.png" alt="TypeScript logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">jQuery</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/jquery.png" alt="jQuery logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Bootstrap</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/bootstrap.png" alt="Bootstrap logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Taiwilind</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/twcss.png" style="width: 4vw;" alt="twcss logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">SASS</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/sass.png" alt="SASS logo">
+                </div>
+              </div>
+            </li>
+
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Angular</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/angular.png" alt="Angular logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">React</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/react.png" alt="React logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Php</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/php.png" style="width: 4vw;" alt="php logo">
+                </div>
+              </div>
+            </li>
+
+            
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Composer</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/composer.png" style="width: 3vw;" alt="Composer logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Firebase</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/firebase.png" alt="Firebase logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Mysql</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/mysql.png"  style="width: 3vw;" alt="Mysql logo">
+                </div>
+              </div>
+            </li>
+   
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Oracle</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/oracle.png"  style="width: 3vw;" alt="Oracle logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">SqlServer</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/sqlServer.png"  style="width: 4vw;" alt="Oracle logo">
+                </div>
+              </div>
+            </li>
+
+          </ul>
+
+          <ul class="tools-list">
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Ajax</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/ajax.png" alt="Ajax logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Scrum</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/scrum.png" style="width: 4vw;" alt="scrum logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Git</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/git.png" alt="Git logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Npm</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/npm.png" alt="Npm logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Command Line</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/command.png" alt="Command Line logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Trello</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/trello.png" alt="Trello logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Json</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/json.png" style="width: 4vw;" alt="ClickUp logo">
+                </div>
+              </div>
+            </li>
+
+            <li>
+              <div class="skill-card">
+                <div class="tooltip">Slack</div>
+
+                <div class="card-icon">
+                  <img src="./assets/images/slack.png" alt="Slack logo">
+                </div>
+              </div>
+            </li>
+
+
+
+          </ul>
+
+        </div>
+
+      </section>
+      <!-- fin de skills -->
+
+      <!--       inicio de Portafolio -->
+      <section class="project" id="portfolio">
+        <div class="project-content section-content">
+          <p class="section-subtitle">Mis Proyectos</p>
+          <h2 class="h3 section-title">Vizualiza mis proyectos!</h2>
+          <p class="section-text">
+            
+          </p>
+        </div>
+        
+        <div class="projects section" id="projects">
+    
+          <div class="project-container">
+            
+          </div>
+        </section>
+
+      </section>
+
+      <!--       fin de Portafolio -->
+
+    </article>
+  </main>
+
+<!--   icon volver -->
+  <a href="#top" class="go-top" data-go-top title="Go to Top">
+    <ion-icon name="arrow-up"></ion-icon>
+  </a>
+
+<!--  footer fin de la pagina -->
+  <footer class="footer">
+    <div class="container">
+
+      <p class="h1 logo">
+        <a href="#">
+          AP<span>.</span>
+        </a>
+      </p>
+
+      <p class="copyright">
+        &copy; 2023 <a href="#">Portafolio MAP</a>. 
+           </p>
+
+    </div>
+  </footer>
+
+<!--   footer fin -->
+
+<!-- script a utilizar librerias -->
+ <!--===== SCROLL REVEAL =====-->
+ <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.0/gsap.min.js"></script>
+    <script type="module" src="js/projects.js"></script>
+    <script src="js/animaciones.js"></script>
+    <script src="js/index.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+
+
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<!--   fin -->
+</body>
+</html>
