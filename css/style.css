@@ -152,35 +152,6 @@ body.active {
   overflow: hidden;
 }
 
-@media only screen and (max-width: 920px) {
-  .certificaciones {
-    display: grid;
-    width: 40%;
-  }
-
-
-  ::-webkit-scrollbar {
-    display: none;
-  }
-}
-
-/* Estilos para la barra de desplazamiento */
-::-webkit-scrollbar {
-  width: 12px;
-  /* Ancho de la barra de desplazamiento */
-}
-
-::-webkit-scrollbar-thumb {
-  background-color: #555;
-  /* Color del indicador de la barra de desplazamiento */
-  border-radius: 10px;
-  /* Radio de borde del indicador de la barra de desplazamiento */
-}
-
-::-webkit-scrollbar-track {
-  background-color: #f1f1f1;
-  /* Color de fondo de la barra de desplazamiento */
-}
 
 /*-----------------------------------*\
  * #REUSED STYLE
@@ -997,11 +968,10 @@ main {
 }
 
 /** PRELOADER */
-.hidden-content,
+/* .hidden-content,
 #hidden-display {
   display: none;
 }
-
 #preloader {
   width: 100vw;
   height: 100vh;
@@ -1011,7 +981,6 @@ main {
   align-items: center;
   justify-content: center;
 }
-
 .loading__text {
   letter-spacing: 30px;
   color: #fff;
@@ -1022,7 +991,6 @@ main {
   user-select: none;
   text-align: center;
 }
-
 .pace {
   pointer-events: none;
   user-select: none;
@@ -1039,7 +1007,6 @@ main {
   overflow: hidden;
   background: #1b1b1b;
 }
-
 .pace .pace-progress {
   max-width: 400px;
   position: absolute;
@@ -1050,7 +1017,7 @@ main {
   width: 100%;
   background: #fff;
 }
-
+ */
 
 
 
