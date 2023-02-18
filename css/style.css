@@ -968,10 +968,11 @@ main {
 }
 
 /** PRELOADER */
-/* .hidden-content,
+.hidden-content,
 #hidden-display {
   display: none;
 }
+
 #preloader {
   width: 100vw;
   height: 100vh;
@@ -981,6 +982,7 @@ main {
   align-items: center;
   justify-content: center;
 }
+
 .loading__text {
   letter-spacing: 30px;
   color: #fff;
@@ -991,6 +993,7 @@ main {
   user-select: none;
   text-align: center;
 }
+
 .pace {
   pointer-events: none;
   user-select: none;
@@ -1007,6 +1010,7 @@ main {
   overflow: hidden;
   background: #1b1b1b;
 }
+
 .pace .pace-progress {
   max-width: 400px;
   position: absolute;
@@ -1017,7 +1021,7 @@ main {
   width: 100%;
   background: #fff;
 }
- */
+
 
 
 
