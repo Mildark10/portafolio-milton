@@ -1695,6 +1695,16 @@ input[type="radio"] {
   font-size: 1.5em;
 }
 
+
+.project-img {
+  transition: transform 0.3s ease-in-out;
+}
+
+.project-img:hover {
+  transform: translateY(-10px);
+}
+
+
 .skill-card.card-skills {
   width: 10%;
   height: 5%;

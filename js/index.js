@@ -122,10 +122,15 @@ if (localStorage.getItem("theme") === "light_theme") {
 
 /*SCROLL projects*/
 
-const sr = ScrollReveal({
-  origin: "top",
-  distance: "80px",
-  duration: 2000,
-  reset: true,
+
+const projectImgs = document.querySelectorAll(".project-img");
+
+projectImgs.forEach((img) => {
+  img.addEventListener("mouseover", () => {
+    img.classList.add("hover");
+  });
+
+  img.addEventListener("mouseout", () => {
+    img.classList.remove("hover");
+  });
 });
-sr.reveal(".project-img", { interval: 200 });

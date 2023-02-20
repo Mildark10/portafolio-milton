@@ -110,19 +110,6 @@ function renderProjects() {
   projects.forEach((project) => {
     const projectCard = createProjectCard(project);
     projectContainer.appendChild(projectCard);
-    sr.reveal(".project-img", {
-      interval: 200,
-      reset: true,
-      beforeReveal: function (el) {
-        el.style.opacity = 0;
-        el.style.transform = "translateY(20px)";
-      },
-      afterReveal: function (el) {
-        el.style.opacity = 1;
-        el.style.transform = "translateY(0)";
-        el.style.transition = "all 0.5s ease-in-out";
-      },
-    });    
   });
 }
 
